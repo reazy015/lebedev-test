@@ -1,0 +1,96 @@
+.header{
+	border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+
+	.header-nav{
+		float: left;
+
+
+		.header-nav-list{
+			margin: 0;
+			display: flex;
+			align-items: space-between;
+			list-style: none;
+			padding-left: 0;
+
+			&-item{
+				cursor: pointer;
+				margin-right: 25px;
+
+				&:hover{
+					background-color: rgba(230, 230, 230, 0.5);
+					transition: 0.2s ease-in;
+					border-radius: 2px;
+				}
+
+
+				&_link{
+					margin-top: 19px;
+					margin-bottom: 17px;
+					text-decoration: none;
+					display: block;
+					.font-mixin;
+
+
+				}
+			}
+		}
+	}
+
+
+	&-user{
+		float: right;
+		display: flex;
+		.font-mixin;
+
+		&-reg{
+
+			&:hover{
+				background-color: rgba(230, 230, 230, 0.5);
+				transition: 0.2s ease-in;
+				border-radius: 2px;
+			}
+
+			&_link{
+				display: block;
+				margin-top: 19px;
+				margin-bottom: 17px;
+				text-decoration: none;
+				color: white;
+			}
+		}
+
+		&-enter{
+			margin-right: 15px;
+      position: relative;
+			cursor: pointer;
+
+			&:hover{
+				background-color: rgba(230, 230, 230, 0.5);
+				transition: 0.2s ease-in;
+				border-radius: 2px;
+			}
+
+      &:before{
+        position: absolute;
+        display: block;
+        content: '';
+        top: 16px;
+        left: -25px;
+        width: 14px;
+        height: 17px;
+        background-image: url('/img/usericon.svg');
+				background-repeat: no-repeat;
+      }
+
+			&_link{
+				display: block;
+				margin-top: 19px;
+				margin-bottom: 17px;
+				text-decoration: none;
+				color: white;
+
+
+			}
+		}
+	}
+}

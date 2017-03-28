@@ -1,0 +1,53 @@
+.main-bot{
+	display: flex;
+	justify-content: space-between;
+  align-items: top;
+
+	&-item{
+		.font-mixin;
+    display:flex;
+		align-items: top;
+
+		&-iconbox--mod1{
+			padding-top: 12px;
+		}
+
+		&-iconbox{
+			position: relative;
+			margin-right: 20px;
+
+
+
+
+			&_delivery{
+				position: absolute;
+				left: 14px;
+				top: 20px;
+			}
+
+			&_time{
+				position: absolute;
+				left: 32px;
+				top: 1px;
+			}
+
+			&-car{
+				position: absolute;
+				left: 5px;
+				top: 0px;
+			}
+		}
+
+		&-descr_header{
+			font-size: 18px;
+			font-weight: bold;
+			text-transform: uppercase;
+			line-height: 1.33;
+			margin-bottom: 9px;
+		}
+
+		&-descr_text{
+			line-height: 1.71;
+		}
+	}
+}

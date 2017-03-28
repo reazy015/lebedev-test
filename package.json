@@ -1,0 +1,25 @@
+{
+  "name": "kerner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-svg-less": "^1.0.0",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-uglify": "^2.1.2",
+    "less": "^2.7.2"
+  },
+  "devDependencies": {
+    "gulp-livereload": "^3.8.1"
+  }
+}
